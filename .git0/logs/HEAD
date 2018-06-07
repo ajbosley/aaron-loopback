@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 1ade72b287895322cd3bcc840c44dd1020f59dcd aaron@ajbosley.co.uk <aaron@ajbosley.co.uk> 1528314091 +0100	commit (initial): hbs template
+1ade72b287895322cd3bcc840c44dd1020f59dcd 31fb1c9a9580d8d70aca89a95afb9d6125f7fd7a aaron@ajbosley.co.uk <aaron@ajbosley.co.uk> 1528317587 +0100	commit: End of day, added materialize css,js and jquery to layout header
+31fb1c9a9580d8d70aca89a95afb9d6125f7fd7a 5484a82ae0f4401fbc0a024ddff1518d0aab1d92 aaron@ajbosley.co.uk <aaron@ajbosley.co.uk> 1528352205 +0100	commit: Added NavBar, SideNav and a set of bullet points to be achieved for each page.

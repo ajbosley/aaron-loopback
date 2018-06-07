@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N7LBN7V');
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--jQuery Materialize Initilization -->
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+      $(".dropdown-trigger").dropdown();
+    });
+  </script>
+  <!--jQuery Materialize Initilization END -->
+
+</head>
+
+<body>
+  <!-- Google Tag Manager  -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7LBN7V" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+  <!-- Google Tag Manager END -->
+  <nav>
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><i class="material-icons">landscape</i>AJBosley</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Projects Nav Dropdown -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="projects">All Projects</a></li>
+      <li class="divider"></li>
+      <li><a href="project1">Project 1</a></li>
+      <li><a href="project2">Project 2</a></li>
+      <li><a href="project3">Project 3</a></li>
+    </ul>
+    <!-- Project Nav Dropdown END -->
+    <!-- SideNav -->
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background red lighten-1">
+
+          </div>
+          <a href="about">My Face Image</a>
+          <a href="index"><span class="white-text name">AJBosley</span></a>
+        </div>
+      </li>
+      <li><a href="about">About</a></li>
+      <li><a href="blog">Blog</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li> <a class="subheader" href="projects">Projects</a></li>
+      <li><a href="project1">Project 1</a></li>
+      <li><a href="project2">Project 2</a></li>
+      <li><a href="project3">Project 3</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+    <!-- SideNav END -->
+  </nav>
+
+  {{{body}}}
+</body>
+
+</html>
